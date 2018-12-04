@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .card{
     width:40%; height:200px; margin:5%; float: left;
 }
@@ -6,6 +5,11 @@
 .essay{
     width:40%; height:200px; margin:5%; float: left;
 }
+
+.reflect{
+    width:40%; height:500px; margin:5%; float: left;
+}
+
 .parallax1 { 
 /* The image used */
 background-image: url("./static/Resort.jpg");
@@ -26,6 +30,7 @@ top: 40%;
 left: 40%;
 text-align: center;
 outline: 10px solid coral;
+background: rgba(171, 205, 239, 1);
 padding: 5px;
 }
 
@@ -34,6 +39,7 @@ top: 40%;
 left: 40%;
 text-align: center;
 outline: 10px solid coral;
+background: rgba(171, 205, 239, 1);
 padding: 5px;
 }
 
@@ -86,6 +92,7 @@ top: 40%;
 left: 40%;
 text-align: center;
 outline: 10px solid coral;
+background: rgba(171, 205, 239, 1);
 padding: 5px;
 }
 
@@ -93,100 +100,4 @@ padding: 5px;
 width: 50%;
 height: 50%;
 align-content: center;
-=======
-.card{
-    width:40%; height:200px; margin:5%; float: left;
-}
-
-.essay{
-    width:40%; height:200px; margin:5%; float: left;
-}
-.parallax1 { 
-/* The image used */
-background-image: url("./static/Resort.jpg");
-
-/* Set a specific height */
-height: 1000px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.parallax1 h1{
-position: absolute;
-top: 40%;
-left: 40%;
-text-align: center;
-outline: 10px solid coral;
-padding: 5px;
-}
-
-.parallax2 h1{
-top: 40%;
-left: 40%;
-text-align: center;
-outline: 10px solid coral;
-padding: 5px;
-}
-
-
-.parallax2 { 
-/* The image used */
-background-image: url("./static/GrandCanyon.jpg");
-
-/* Set a specific height */
-height: 1000px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.parallax3 { 
-/* The image used */
-background-image: url("./static/Acacia.jpg");
-
-/* Set a specific height */
-height: 1000px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.parallax4 { 
-/* The image used */
-background-image: url("./static/Acapella.jpg");
-
-/* Set a specific height */
-height: 1000px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-
-.parallax3 h1{
-top: 40%;
-left: 40%;
-text-align: center;
-outline: 10px solid coral;
-padding: 5px;
-}
-
-.parallax3 object {
-width: 50%;
-height: 50%;
-align-content: center;
->>>>>>> fe537be60cd2b498ede47c79bd86f3d09de80dc1
 }
